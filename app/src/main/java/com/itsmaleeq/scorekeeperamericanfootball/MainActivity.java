@@ -61,19 +61,19 @@ public class MainActivity extends AppCompatActivity {
         displayYellowScore(scoreYellowTeam);
     }
     public void teamYellowAddTwo(View view) {
-        scoreYellowTeam = scoreYellowTeam +2;
+        scoreYellowTeam +=  2;
         displayYellowScore(scoreYellowTeam);
     }
     public void teamYellowAddOne(View view) {
-        scoreYellowTeam = scoreYellowTeam +1;
+        scoreYellowTeam += 1;
         displayYellowScore(scoreYellowTeam);
     }
     public void teamYellowAddFg(View view) {
-        scoreYellowTeam = scoreYellowTeam +3;
+        scoreYellowTeam +=  3;
         displayYellowScore(scoreYellowTeam);
     }
     public void teamYellowAddSg(View view) {
-        scoreYellowTeam = scoreYellowTeam +2;
+        scoreYellowTeam += 2;
         displayYellowScore(scoreYellowTeam);
     }
 
